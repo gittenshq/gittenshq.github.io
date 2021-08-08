@@ -4,11 +4,16 @@
     padding: 0;
 }
 
-body, html {
+    html {
     background: url(/resources/images/hartford.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
+
+    .contents {
+        border: 3px solid hsla(180, 90%, 49%, 0.781);
+    }
 /* NAVIGATION BAR */
 
 .navigation {
@@ -44,9 +49,29 @@ body, html {
 /* Home Section */
 
 #home {
-    display: flex;
+       
 }
 
+#about {
+    
+}
+
+#projects {
+ 
+}
 h1 {
     font-size: 3rem;
+}
+
+.container {
+    border: 15px solid hsla(180, 90%, 49%, 0.781);
+    margin: auto;
+}
+
+section {
+    border: 2px solid hsla(180, 90%, 49%, 0.781);
+    margin: 3.25rem;
+    padding: 1rem;
+    background-color: hsl(271, 89%, 29%);
+    color: hsl(0, 0%, 100%);
 }
